@@ -33,15 +33,25 @@ export const AllCaps: Story = {
         allCaps: true
     }
 };
+
 export const Secondary: Story = {
     args: {
         label: 'Secondary label',
         color: 'text-secondary'
     }
 };
+
 export const CustomColor: Story = {
     args: {
         label: 'Custom color label',
         fontColor: "#72c72b",
+    }
+};
+
+export const CustomBackgroundColor: Story = {
+    args: {
+        label: 'Custom color label',
+        fontColor:'white',
+        backgroundColor: 'black'
     }
 };
